@@ -3,7 +3,7 @@ import { CardBody, CardHeader, Row, Col } from 'reactstrap'
 import 'animate.css';
 
 import logo from '../../assets/img/brand/logo.png'
-import bienvenida from '../../assets/img/usoG/bienvenida.png'
+// import bienvenida from '../../assets/img/usoG/bienvenida.png'
 
 class BienvenidaView extends Component {
   loading = () => (
@@ -34,12 +34,12 @@ class BienvenidaView extends Component {
               </div>
             </Col>
             <Col md="6" sm="6" xs="12">
-              <img
+              {/* <img
                 src={bienvenida}
                 // style={{ width: 500 }}
                 alt="bienvenida"
                 className="img-fluid bordeImagen animated  bounceInRight delay-2s"
-              />
+              /> */}
             </Col>
           </Row>
         </CardBody>
